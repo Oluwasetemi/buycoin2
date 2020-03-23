@@ -1,0 +1,7 @@
+type Url {
+	url: String!
+}
+
+type Query {
+	shortenUrl(url: String): Url
+}
